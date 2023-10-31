@@ -1,0 +1,125 @@
+@font-face {
+    font-family: gods must;
+    src: url(fonts/Gods\ Must.otf);
+}
+@font-face {
+    font-family: coolvetica;
+    src: url(fonts/coolvetica\ rg.otf);
+}
+@font-face {
+    font-family: spicy pizza;
+    src: url(fonts/Spicy\ Pizza.otf);
+}
+@font-face {
+    font-family: interphases;
+    src: url(fonts/TT\ Interphases\ Pro\ Trial\ Medium.ttf);
+}
+body{
+    margin: 0px;
+}
+
+.banner{
+    height: fit-content;
+}
+.banner img{
+    width: 100%;
+}
+
+.content{
+    background-color: #FF93A3;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-color: #FF93A3;
+    border-bottom-style: solid;
+    border-bottom-width: 100%;
+}
+
+.introducao{
+    margin-top: -50px;
+    background-color: #fc516a;
+    border-top-style: solid;
+    border-top-width: 70px;
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-color: #fc516a;
+    max-height: fit-content;
+}
+.introducao img{
+    max-width: 20%;
+    max-height: auto;
+    position: absolute;
+    top:50%;
+}
+
+.lore{
+    margin-right: 15%;
+    margin-left: 15%;;
+    font-family: 'coolvetica';
+    font-size: 24px;
+}
+
+.persona{
+
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+}
+
+
+.titulo div{
+    max-width:80%;
+}
+
+.titulo{
+    font-family: 'coolvetica';
+    font-size: 50px;
+    color: #fffefc;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subt{
+    text-align: center;
+    color: #fc516a;
+    font-size: 17px;
+    font-family: interphases;
+}
+
+.atalhoimg div{
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+.atalhoimg img{
+    min-width: 20%;
+}
+
+.atalhoimg{
+    margin-top: 70px;
+    
+}
+
+
+#info{
+    position: relative;
+    text-align: center;
+    font-family: 'coolvetica';
+    font-size: 24px;
+    margin-bottom: 10%;
+   transform: translate(0,30%);
+   padding: 50px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 15px;
+   margin-left: 6%;
+   margin-right: 6%;
+}
+
+#gifkeroppi img{
+    max-width: 10%;
+    max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
